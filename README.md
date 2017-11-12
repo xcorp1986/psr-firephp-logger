@@ -13,7 +13,7 @@ You can use the logger directly like this:
 
 ````<?php
 
-use Xsist10\PsrFirePhpLogger\Logger;
+use Cheukpang\PsrFirePhpLogger\Logger;
 
 $logger = new Logger();
 
@@ -31,7 +31,7 @@ Or pass the logger as a parameter to `LoggerAwareInterface` classes like this:
 
 ````<?php
 
-use Xsist10\PsrFirePhpLogger\Logger;
+use Cheukpang\PsrFirePhpLogger\Logger;
 
 $logger = new Logger()
 
